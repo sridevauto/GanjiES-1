@@ -1,11 +1,19 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "48.0"
+  "packageDirectories" : [ {
+    "path" : "Modulefortraining",
+    "default" : true,
+    "package" : "Modulefortraining",
+    "versionName" : "Modulefortraining",
+    "versionNumber" : "1.0.0.0"
+  }, {
+    "path" : "force-app",
+    "default" : false
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "48.0",
+  "packageAliases" : {
+    "Modulefortraining" : "0Ho0I0000008OLOSA2",
+    "Modulefortraining@1.0.0.0" : "04t0I000000XbUFQA0"
+  }
 }
