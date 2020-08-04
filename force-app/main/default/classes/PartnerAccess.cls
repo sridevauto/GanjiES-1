@@ -1,5 +1,5 @@
 public Class PartnerAccess{
-
+//testing
     Public string name {set;get;}
     Public string Address {set;get;}
      Public Boolean Checkbox {set;get;}
