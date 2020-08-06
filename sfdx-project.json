@@ -1,11 +1,19 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
-    }
-  ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "48.0"
+  "packageDirectories" : [ {
+    "path" : "force-app",
+    "default" : false
+  }, {
+    "path" : "Test123",
+    "default" : true,
+    "package" : "Test123",
+    "versionName" : "Test123",
+    "versionNumber" : "1.0.0.0"
+  } ],
+  "namespace" : "",
+  "sfdcLoginUrl" : "https://login.salesforce.com",
+  "sourceApiVersion" : "48.0",
+  "packageAliases" : {
+    "Test123" : "0Ho0I0000008OLsSAM",
+    "Test123@1.0.0.0" : "04t0I000000XbdrQAC"
+  }
 }
