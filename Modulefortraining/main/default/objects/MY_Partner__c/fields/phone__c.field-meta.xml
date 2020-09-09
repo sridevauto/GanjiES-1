@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Contact_Email__c</fullName>
+    <fullName>phone__c</fullName>
     <externalId>false</externalId>
-    <label>Contact Email</label>
+    <label>phone number</label>
     <required>false</required>
-    <trackFeedHistory>false</trackFeedHistory>
-    <type>Email</type>
-    <unique>false</unique>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
 </CustomField>

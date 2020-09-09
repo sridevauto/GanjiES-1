@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>48.0</version>
+    <version>49.0</version>
     <types>
+        <members>Casehelper</members>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
         <members>CommunitiesLandingController</members>
@@ -86,10 +87,8 @@
         <members>Account.ChannelProgramLevelName</members>
         <members>Account.ChannelProgramName</members>
         <members>Account.CleanStatus</members>
-        <members>Account.Contact_Email__c</members>
         <members>Account.CustomerPriority__c</members>
         <members>Account.Customer_Id__c</members>
-        <members>Account.Customer_Number__c</members>
         <members>Account.DandbCompanyId</members>
         <members>Account.Description</members>
         <members>Account.DunsNumber</members>
