@@ -1,19 +1,25 @@
 {
   "packageDirectories" : [ {
+    "path" : "pagemodule",
+    "default" : true,
+    "package" : "pagemodule",
+    "versionName" : "pagemodule",
+    "versionNumber" : "1.0.0.0"
+  }, {
+    "path" : "force-app",
+    "default" : false
+  }, {
+    "path" : "Modulefortraining",
+    "default" : false,
+    "package" : "Modulefortraining",
+    "versionName" : "Modulefortraining",
+    "versionNumber" : "1.0.0.0"
+  }, {
     "path" : "Modulefortraining",
     "default" : false,
     "package" : "testunloacked",
     "versionName" : "ver 0.1",
     "versionNumber" : "0.1.0.NEXT"
-  }, {
-    "path" : "Modulefortraining",
-    "default" : true,
-    "package" : "Modulefortraining",
-    "versionName" : "Modulefortraining",
-    "versionNumber" : "1.0.0.0"
-  }, {
-    "path" : "force-app",
-    "default" : false
   } ],
   "namespace" : "",
   "sfdcLoginUrl" : "https://login.salesforce.com",
@@ -22,6 +28,8 @@
     "Modulefortraining" : "0Ho0I0000008OLOSA2",
     "Modulefortraining@1.0.0.0" : "04t0I000000XbUFQA0",
     "testunloacked" : "0Ho2x000000TNlJCAW",
-    "testunloacked@1.0.0.0" : "04t2x0000041reEAAQ"
+    "testunloacked@1.0.0.0" : "04t2x0000041reEAAQ",
+    "pagemodule" : "0Ho2x000000CabSCAS",
+    "pagemodule@1.0.0.0" : "04t2x000003x3m4AAA"
   }
 }
